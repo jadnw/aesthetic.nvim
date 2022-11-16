@@ -74,10 +74,12 @@ require("aesthetic").setup {
     terminal_colors = true, -- if true, set terminal colors
     -- set style: "NONE", "italic", "bold", "underline", "undercurl"
     styles = {
+      booleans = "NONE",
       comments = "NONE",
       functions = "NONE",
       keywords = "NONE",
       numbers = "NONE",
+      parameters = "NONE",
       strings = "NONE",
       types = "NONE",
       variables = "NONE",
