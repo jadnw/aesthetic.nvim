@@ -167,7 +167,7 @@ function M.fallback(spec, config, opts)
   -- No highlighting (sets all highlight arguments to `NONE`). this group is used to clear certain ranges, for example, string interpolations. Don't change the values of this highlight group.
   ["none"] = {
     "TSNone",
-    { fg = spec.fg3 },
+    { fg = spec.fg2 },
   },
   -- Numeric literals that don't fit into other categories.
   ["number"] = {
