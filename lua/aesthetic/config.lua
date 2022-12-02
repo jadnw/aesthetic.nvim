@@ -5,6 +5,7 @@ local M = {
     transparent = false,
     terminal_colors = true,
     styles = {
+      attributes = "NONE",
       booleans = "NONE",
       comments = "NONE",
       functions = "NONE",

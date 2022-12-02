@@ -22,7 +22,7 @@ function M.fallback(spec, config, opts)
   -- HTML/JSX attributes
   ["attribute"] = {
     "TSAttribute",
-    { fg = syn.attr },
+    { fg = syn.attr, style = stl.attributes },
   },
   -- Boolean literals: `True` and `False` in Python.
   ["boolean"] = {

@@ -67,13 +67,14 @@ This is an example aesthetic setup with default values
 
 ```lua
 require("aesthetic").setup {
-  accent = "emerald", -- values: "orange", "teal", "white", "cyan", "green", "magenta", "purple", "red", "blue", "yellow"
+  accent = "green", -- values: "orange", "teal", "white", "cyan", "green", "magenta", "purple", "red", "blue", "yellow"
   style = "default", -- values: "default", "soft", "hard" 
   options = {
     transparent = false, -- if true, background is transparent
     terminal_colors = true, -- if true, set terminal colors
     -- set style: "NONE", "italic", "bold", "underline", "undercurl"
     styles = {
+      attributes = "NONE",
       booleans = "NONE",
       comments = "NONE",
       functions = "NONE",
