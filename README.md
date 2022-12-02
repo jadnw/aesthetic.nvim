@@ -105,6 +105,7 @@ require("aesthetic").setup {
       lsp_signature = true,
       notify = true,
       nvimtree = true,
+      scrollbar = true,
       telescope = true,
       treesitter = true,
       trouble = true,
@@ -128,6 +129,7 @@ require("aesthetic").setup {
 - [nvim-notify](https://github.com/rcarriga/nvim-notify)
 - [nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)
 - [nvim-ts-rainbow](https://github.com/p00f/nvim-ts-rainbow)
+- [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar)
 - [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 - [trouble.nvim](https://github.com/folke/trouble.nvim)
 - [which-key.nvim](https://github.com/folke/which-key.nvim)

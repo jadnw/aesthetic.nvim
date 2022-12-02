@@ -34,6 +34,7 @@ local M = {
       lsp_signature = true,
       notify = true,
       nvimtree = true,
+      scrollbar = true,
       telescope = true,
       treesitter = true,
       tsrainbow = true,
