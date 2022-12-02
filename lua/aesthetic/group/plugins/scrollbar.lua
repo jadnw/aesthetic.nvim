@@ -10,7 +10,7 @@ function M.get(spec, config, opts)
   return {
     ScrollbarHandle = { fg = spec.fg0, bg = syn.comment },
     ScrollbarCursorHandle = { fg = pal.accent.base, bg = pal.accent.base },
-    ScrollbarCursor = { fg = spec.fg0, bg = syn.comment },
+    ScrollbarCursor = { fg = spec.bg4, bg = syn.bg4 },
 
     ScrollbarSearchHandle = { fg = spec.sel1, bg = spec.bg1 },
     ScrollbarSearch = { fg = spec.sel1, bg = spec.bg1 },
