@@ -132,7 +132,7 @@ function M.fallback(spec, config, opts)
   -- Keywords used to define a function: `function` in Lua, `def` and `lambda` in Python.
   ["keyword.function"] = {
     "TSKeywordFunction",
-    { fg = syn.builtin0, style = stl.functions },
+    { fg = syn.keyword, style = stl.functions },
   },
   -- Unary and binary operators that are English words: `and`, `or` in Python; `sizeof` in C.
   ["keyword.operator"] = {

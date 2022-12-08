@@ -118,7 +118,7 @@ function M.gen_spec(accent, pal)
     keyword = pal.purple.base, -- Keywords
     number = pal.orange.bright, -- Numbers
     operator = pal.purple.bright, -- Operators
-    param = spec.fg1, -- Params
+    param = pal.red.bright, -- Params
     preproc = pal.purple.base, -- PreProc
     regex = pal.orange.base, -- Regex
     statement = pal.purple.base, -- Statements
