@@ -182,7 +182,7 @@ function M.fallback(spec, config, opts)
   -- Parameters of a function.
   ["parameter"] = {
     "TSParameter",
-    { fg = syn.builtin0, style = stl.parameters }
+    { fg = syn.param, style = stl.parameters }
   },
   -- References to parameters of a function.
   ["parameter.reference"] = {
